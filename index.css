@@ -1,0 +1,47 @@
+:root{
+    --background:rgb(1, 1, 59);
+    --text:#ffffff;
+    --link:rgb(124, 0, 0);
+}
+body{
+    background: var(--background);
+    color: var(--text);
+}
+.videos{ 
+    width: 100%;
+}
+#button{
+    background: var(--link);
+    border: none;
+    outline: none;
+    border-radius: 1rem;
+    padding: .7rem;
+    color: rgb(0, 204, 255);
+    text-decoration: none;
+}
+.video1{
+    border-radius: 1rem;
+    background: var(--background);
+    width: 100%;
+    /* padding: 1rem; */
+}
+.v-name{
+    display: flex;
+    justify-content: space-between;
+    padding-top: .7rem;
+    padding-bottom: .5rem;
+}
+.name{font-size: 1.4rem;}
+.v-link a { color: rgb(255, 115, 0);
+text-decoration: none;
+font-size: 1.2rem;}
+
+.welcome{
+    background-color: var(--text);
+    height: 30vh;
+    width: auto;
+    border-radius: 1rem;
+    color: red;
+    padding: 1rem;
+    margin: 1rem;
+}
